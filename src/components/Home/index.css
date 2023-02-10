@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  border-radius: 12px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
